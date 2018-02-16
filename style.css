@@ -2,6 +2,13 @@
 
 html {overflow-y: scroll;}
 
+article * {
+    background-color: inherit
+}
+article time {
+    display: inline-block
+}
+
 body {
     font-family: ' メイリオ ' ,
     'Hiragino Kaku Gothic Pro',
@@ -201,6 +208,7 @@ font-size: 24px;
 }
 #posts article {
     padding: 0;
+    -webkit-text-size-adjust: 100%;
 }
 
 /*トップページ*/
